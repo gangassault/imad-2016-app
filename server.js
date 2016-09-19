@@ -12,20 +12,6 @@ var articles = {
                         date: 'Sep 19, 2016',
                         content: `<p>This is the content of article one </p>  `
                         }
-                        
-                        'article-two': {
-                        title: 'Article Two ! Gang Assault',
-                        heading: 'Article-Two',
-                        date: 'Sep 19, 2016',
-                        content: `<p>This is the content of second article</p>  `
-                        }
-                        
-                        'article-three' : {
-                        title: 'Article Three ! Gang Assault',
-                        heading: 'Article-Three',
-                        date: 'Sep 19, 2016',
-                        content: `<p>This is the content of Third article </p>  `
-                    }
 };
 
 
@@ -72,11 +58,10 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/;articleName' , function (req, res){
-    //articleName == article-one
-    //articles[articleName] == {} content object for article one
-  res.send(createTemplate(articles[articleName]));
+app.get('/article-one' , function (req, res){
+  res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
 });
+
 
 app.get('/article-two' , function (req, res){
   res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
