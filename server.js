@@ -10,7 +10,7 @@ var articles = {
                         title: 'Article One ! Gang Assault',
                         heading: 'Article-One',
                         date: 'Sep 19, 2016',
-                        content: `<p>This is the content of article one </p>  `
+                        content: `<p>Amended content for article one </p> `
                         }
 };
 
