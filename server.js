@@ -12,16 +12,7 @@ var articleone = {
             content: `<p>Amended content for article one </p> `
              };
 
-
-function createTemplate (data) {
-    var title = data.title;
-    var date = data.date;
-    var heading = data.heading;
-    var content = data.content;
-    
-    
-    
-    var htmlTemplate = `
+var htmlTemplate = `
             <html>
                 <head>
                        <title> 
