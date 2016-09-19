@@ -6,13 +6,26 @@ var app = express();
 app.use(morgan('combined'));
 
 var articles = {    
-                        articleone: {  
+                       'article-one': {
                         title: 'Article One ! Gang Assault',
                         heading: 'Article-One',
                         date: 'Sep 19, 2016',
                         content: `<p>This is the content of article one </p>  `
                         }
                         
+                        'article-two': {
+                        title: 'Article Two ! Gang Assault',
+                        heading: 'Article-Two',
+                        date: 'Sep 19, 2016',
+                        content: `<p>This is the content of second article</p>  `
+                        }
+                        
+                        'article-three' : {
+                        title: 'Article Three ! Gang Assault',
+                        heading: 'Article-Three',
+                        date: 'Sep 19, 2016',
+                        content: `<p>This is the content of Third article </p>  `
+                    }
 };
 
 
