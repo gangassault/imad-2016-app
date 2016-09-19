@@ -12,20 +12,8 @@ var articles = {
                         date: 'Sep 19, 2016',
                         content: `<p>This is the content of article one </p>  `
                         }
-                        articletwo: {
-                        title: 'Article Two ! Gang Assault',
-                        heading: 'Article-Two',
-                        date: 'Sep 19, 2016',
-                        content: `<p>This is the content of second article</p>  `
-                        }
                         
-                        articlethree: {
-                        title: 'Article Three ! Gang Assault',
-                        heading: 'Article-Three',
-                        date: 'Sep 19, 2016',
-                        content: `<p>This is the content of Third article </p>  `
-                    }
-}
+};
 
 
 function createTemplate (data) {
