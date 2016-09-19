@@ -1,4 +1,4 @@
-body {
+.body{
     font-family: sans-serif;
     background-color: lightblue;
     margin-top: 75px;
@@ -20,4 +20,3 @@ body {
     height: 200px;
 }
 
- 
