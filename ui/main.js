@@ -9,5 +9,5 @@ element.innerHtml = 'Gangassault'
 
 var img = document.getElementById ('madi');
 img.onClick = function (){
-    img.style.marginLeft = '100px';
+    var interval = setInterval(moveRight, 100);
 };
